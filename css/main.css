@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+  background-color: #dcd4cd;
+  font-family: Georgia, 'Dosis';
+  line-height: 1.5;
+  border: 3px solid #785439;
+  border-radius: 8px;
+  margin: .5rem;
+}
+
+h1 {
+  color: #512200;
+  font-size: 1.5rem;
+  font-family: 'Dosis'
+}
+
+p {
+  color: #512200;
+  border-bottom: 2px solid #9a816d;
+  padding-bottom: 7px;
+  margin: 0;
+}
+
+.link-card {
+  color: #785439;
+}
+
+a {
+  text-decoration: none;
+}
+
+dl {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  font-size: .875rem;
+  color: #512200;
+  padding: .5rem;
+  padding-bottom: .8rem;
+}
+
+dd {
+  display: inline-block;
+  width: 45%
+  margin: 0;
+  color: red;
+  font-style: italic;
+  color: #512200;
+}
+dt {
+  display: inline-block;
+  margin: 0;
+  text-align: left;
+  width: 45%;
+
+}
+
+.btn {
+  color: green;
+  border: 2px;
+  text-align: center;
+  font-size: .75rem;
+  border-top: 2px solid #9a816d;
+}
+
+h2 a {
+  background-color: #785439;
+  padding: .6rem;
+  border-radius: 4px;
+  color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
